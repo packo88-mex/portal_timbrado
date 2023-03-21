@@ -1,8 +1,8 @@
 {
-  "name": "catalogos",
+  "name": "timbrado-catalogos",
   "version": "0.0.0",
   "private": true,
-  "description": "Description for catalogos",
+  "description": "Description for timbrado_catalogos",
   "license": "UNLICENSED",
   "scripts": {
     "app:start": "./mvnw",

@@ -1,0 +1,80 @@
+entity RegimenFiscal {
+    fecha LocalDate,
+	regimenFiscal String maxlength(100),
+    estatus Estatus,
+    fechaModificacion LocalDate,
+    usuario String maxlength(30)
+}
+
+entity Estados {
+	fecha LocalDate
+	pais String maxlength(100),
+	estado String maxlength(100),
+    descripcionEstado String maxlength(150),
+    estatus Estatus,
+    fechaModificacion LocalDate
+    usuario String maxlength(30)
+}
+
+entity EstatusCfdi{
+	fecha LocalDate,
+    descripcionEstatusCfdi String maxlength(50),
+	estatus Estatus,    
+    fechaModificacion LocalDate,
+    usuario String maxlength(30)
+}
+
+entity  MotivosCancelacion {
+	fecha LocalDate,
+	motivoCancelacion String maxlength(100),
+    estatus Estatus,
+    fechaModificacion LocalDate,
+    usuario String maxlength(30)
+}
+
+entity TipoCfdi {
+	fecha LocalDate,
+	tipoCfdi String  maxlength(50),
+    estatus Estatus,
+    fechaModificacion LocalDate,
+    usuario String  maxlength(30)
+}
+
+entity TipoRecibo{
+	fecha LocalDate,
+    tipoRecibo String maxlength(50),
+    clave String maxlength(10),
+    estatus Estatus,
+    fechaModificacion LocalDate,
+    usuario String maxlength(30),
+}
+
+entity RepresentacionGrafica {
+	fecha LocalDate,
+    representacionGrafica String maxlength(100),
+    estatus Estatus,
+    fechaModificacion LocalDate,
+    usuario String maxlength(30)
+}
+
+enum Estatus {
+	Activo, Inactivo
+}
+
+relationship OneToMany {
+    TipoCfdi{tiporecibo} to TipoRecibo{tipocfdi}
+}
+
+relationship OneToMany {
+    TipoRecibo{representaciongrafica} to RepresentacionGrafica{tiporecibo}
+}
+
+// Set pagination options
+//paginate RegimenFiscal, Estados, EstatusCfdi, MotivosCancelacion, TipoCfdi, TipoRecibo, RepresentacionGrafica with infinite-scroll
+//paginate RegimenFiscal, Estados, EstatusCfdi, MotivosCancelacion, TipoCfdi, TipoRecibo, RepresentacionGrafica with pagination
+
+// Use Data Transfer Objects (DTO)
+dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl 

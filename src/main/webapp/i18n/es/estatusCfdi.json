@@ -1,0 +1,28 @@
+{
+  "timbradoCatalogosApp": {
+    "estatusCfdi": {
+      "home": {
+        "title": "Estatus Cfdis",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Estatus Cfdi",
+        "createOrEditLabel": "Crear o editar Estatus Cfdi",
+        "notFound": "Ningún Estatus Cfdis encontrado"
+      },
+      "created": "Un nuevo Estatus Cfdi ha sido creado con el identificador {{ param }}",
+      "updated": "Un Estatus Cfdi ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Estatus Cfdi ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Estatus Cfdi {{ id }}?"
+      },
+      "detail": {
+        "title": "Estatus Cfdi"
+      },
+      "id": "ID",
+      "fecha": "Fecha",
+      "descripcionEstatusCfdi": "Descripcion Estatus Cfdi",
+      "estatus": "Estatus",
+      "fechaModificacion": "Fecha Modificacion",
+      "usuario": "Usuario"
+    }
+  }
+}

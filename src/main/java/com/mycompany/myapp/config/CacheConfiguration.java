@@ -48,6 +48,17 @@ public class CacheConfiguration {
             createCache(cm, com.mycompany.myapp.domain.User.class.getName());
             createCache(cm, com.mycompany.myapp.domain.Authority.class.getName());
             createCache(cm, com.mycompany.myapp.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.mycompany.myapp.domain.RegimenFiscal.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Estados.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.EstatusCfdi.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.MotivosCancelacion.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.TipoCfdi.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.TipoCfdi.class.getName() + ".tiporecibos");
+            createCache(cm, com.mycompany.myapp.domain.TipoRecibo.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.TipoRecibo.class.getName() + ".representaciongraficas");
+            createCache(cm, com.mycompany.myapp.domain.RepresentacionGrafica.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.TipoCfdi.class.getName() + ".repgraficas");
+            createCache(cm, com.mycompany.myapp.domain.TipoCfdi.class.getName() + ".representacionGraficas");
             // jhipster-needle-ehcache-add-entry
         };
     }

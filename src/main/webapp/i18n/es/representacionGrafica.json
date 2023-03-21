@@ -1,0 +1,29 @@
+{
+  "timbradoCatalogosApp": {
+    "representacionGrafica": {
+      "home": {
+        "title": "Representacion Graficas",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Representacion Grafica",
+        "createOrEditLabel": "Crear o editar Representacion Grafica",
+        "notFound": "Ningún Representacion Graficas encontrado"
+      },
+      "created": "Un nuevo Representacion Grafica ha sido creado con el identificador {{ param }}",
+      "updated": "Un Representacion Grafica ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Representacion Grafica ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Representacion Grafica {{ id }}?"
+      },
+      "detail": {
+        "title": "Representacion Grafica"
+      },
+      "id": "ID",
+      "fecha": "Fecha",
+      "representacionGrafica": "Representacion Grafica",
+      "estatus": "Estatus",
+      "fechaModificacion": "Fecha Modificacion",
+      "usuario": "Usuario",
+      "tiporecibo": "Tiporecibo"
+    }
+  }
+}

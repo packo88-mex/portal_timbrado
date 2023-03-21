@@ -1,0 +1,28 @@
+{
+  "timbradoCatalogosApp": {
+    "regimenFiscal": {
+      "home": {
+        "title": "Regimen Fiscals",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Regimen Fiscal",
+        "createOrEditLabel": "Crear o editar Regimen Fiscal",
+        "notFound": "Ningún Regimen Fiscals encontrado"
+      },
+      "created": "Un nuevo Regimen Fiscal ha sido creado con el identificador {{ param }}",
+      "updated": "Un Regimen Fiscal ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Regimen Fiscal ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Regimen Fiscal {{ id }}?"
+      },
+      "detail": {
+        "title": "Regimen Fiscal"
+      },
+      "id": "ID",
+      "fecha": "Fecha",
+      "regimenFiscal": "Regimen Fiscal",
+      "estatus": "Estatus",
+      "fechaModificacion": "Fecha Modificacion",
+      "usuario": "Usuario"
+    }
+  }
+}

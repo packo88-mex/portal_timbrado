@@ -1,0 +1,29 @@
+{
+  "timbradoCatalogosApp": {
+    "tipoCfdi": {
+      "home": {
+        "title": "Tipo Cfdis",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Tipo Cfdi",
+        "createOrEditLabel": "Create or edit a Tipo Cfdi",
+        "notFound": "No Tipo Cfdis found"
+      },
+      "created": "A new Tipo Cfdi is created with identifier {{ param }}",
+      "updated": "A Tipo Cfdi is updated with identifier {{ param }}",
+      "deleted": "A Tipo Cfdi is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Tipo Cfdi {{ id }}?"
+      },
+      "detail": {
+        "title": "Tipo Cfdi"
+      },
+      "id": "ID",
+      "fecha": "Fecha",
+      "tipoCfdi": "Tipo Cfdi",
+      "estatus": "Estatus",
+      "fechaModificacion": "Fecha Modificacion",
+      "usuario": "Usuario",
+      "tiporecibo": "Tiporecibo"
+    }
+  }
+}

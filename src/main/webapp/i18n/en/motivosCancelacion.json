@@ -1,0 +1,28 @@
+{
+  "timbradoCatalogosApp": {
+    "motivosCancelacion": {
+      "home": {
+        "title": "Motivos Cancelacions",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Motivos Cancelacion",
+        "createOrEditLabel": "Create or edit a Motivos Cancelacion",
+        "notFound": "No Motivos Cancelacions found"
+      },
+      "created": "A new Motivos Cancelacion is created with identifier {{ param }}",
+      "updated": "A Motivos Cancelacion is updated with identifier {{ param }}",
+      "deleted": "A Motivos Cancelacion is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Motivos Cancelacion {{ id }}?"
+      },
+      "detail": {
+        "title": "Motivos Cancelacion"
+      },
+      "id": "ID",
+      "fecha": "Fecha",
+      "motivoCancelacion": "Motivo Cancelacion",
+      "estatus": "Estatus",
+      "fechaModificacion": "Fecha Modificacion",
+      "usuario": "Usuario"
+    }
+  }
+}
