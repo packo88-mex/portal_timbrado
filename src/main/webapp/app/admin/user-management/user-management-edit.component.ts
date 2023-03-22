@@ -125,8 +125,8 @@ export default class JhiUserManagementEdit extends Vue {
   }
 
   private getMessageFromHeader(res: any): any {
-    return this.$t(res.headers['x-timbradocatalogosapp-alert'], {
-      param: decodeURIComponent(res.headers['x-timbradocatalogosapp-params'].replace(/\+/g, ' ')),
+    return this.$t(res.headers['x-portaltimbradoapp-alert'], {
+      param: decodeURIComponent(res.headers['x-portaltimbradoapp-params'].replace(/\+/g, ' ')),
     });
   }
 }

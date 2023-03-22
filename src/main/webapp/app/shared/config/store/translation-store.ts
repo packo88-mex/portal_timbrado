@@ -4,7 +4,6 @@ export const translationStore: Module<any, any> = {
   state: {
     currentLanguage: localStorage.getItem('currentLanguage') || 'es',
     languages: {
-      en: { name: 'English' },
       es: { name: 'Español' },
       // jhipster-needle-i18n-language-key-pipe - JHipster will add/remove languages in this object
     },

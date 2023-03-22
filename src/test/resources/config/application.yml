@@ -15,7 +15,7 @@
 
 spring:
   application:
-    name: timbrado_catalogos
+    name: portal_timbrado
   # Replace by 'prod, faker' to add the faker context and have sample data loaded in production
   liquibase:
     contexts: test
@@ -33,13 +33,13 @@ spring:
     basename: i18n/messages
   task:
     execution:
-      thread-name-prefix: timbrado-catalogos-task-
+      thread-name-prefix: portal-timbrado-task-
       pool:
         core-size: 1
         max-size: 50
         queue-capacity: 10000
     scheduling:
-      thread-name-prefix: timbrado-catalogos-scheduling-
+      thread-name-prefix: portal-timbrado-scheduling-
       pool:
         size: 20
   thymeleaf:
@@ -56,9 +56,9 @@ server:
 # ===================================================================
 jhipster:
   clientApp:
-    name: 'timbradoCatalogosApp'
+    name: 'portalTimbradoApp'
   mail:
-    from: timbrado_catalogos@localhost.com
+    from: portal_timbrado@localhost.com
     base-url: http://127.0.0.1:8080
   logging:
     # To test json console appender
@@ -72,7 +72,7 @@ jhipster:
     authentication:
       jwt:
         # This token must be encoded using Base64 (you can type `echo 'secret-key'|base64` on your command line)
-        base64-secret: ZDJkOGRiZDgxMzc4OTMwZDJjYmYwMjNkNmQ4ZWM1NmNiMTJjMjhiY2U3NjgwMDRiNGVmOTVhODcyZDBiYWY2ZDQ0MjYxZjgxMzYwNDUxMmNkMjZiZTY0ZDJlNDdiNzE3NGZhMThhNmQzNGUwMjJkZGRjZTk2ZGIwYThiNmFjYjU=
+        base64-secret: YjhkYzVhODdlZTE3ZDUxOTc3OWFmNDI5NDliNjZlODVmNTg5MDEyZDc0ZTM3ZTc2NzY4NDE1NmJkMzNiM2UzNDQ0MGU2ZjljMWIxZDZiMjIzZmY1NTc1YjQzNmRkYjNiNDRiMmUyZWMxMWFjNzM2NDlhN2UyOGJiYTZmZDliNjU=
         # Token is valid 24 hours
         token-validity-in-seconds: 86400
 

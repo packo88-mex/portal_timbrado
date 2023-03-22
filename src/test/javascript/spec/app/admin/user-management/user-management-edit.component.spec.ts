@@ -78,8 +78,8 @@ describe('UserManagementEdit Component', () => {
       // GIVEN
       axiosStub.put.resolves({
         headers: {
-          'x-timbradocatalogosapp-alert': '',
-          'x-timbradocatalogosapp-params': '',
+          'x-portaltimbradoapp-alert': '',
+          'x-portaltimbradoapp-params': '',
         },
       });
       userManagementEdit.userAccount = { id: 123, authorities: [] };
@@ -97,8 +97,8 @@ describe('UserManagementEdit Component', () => {
       // GIVEN
       axiosStub.post.resolves({
         headers: {
-          'x-timbradocatalogosapp-alert': '',
-          'x-timbradocatalogosapp-params': '',
+          'x-portaltimbradoapp-alert': '',
+          'x-portaltimbradoapp-params': '',
         },
       });
       userManagementEdit.userAccount = { authorities: [] };

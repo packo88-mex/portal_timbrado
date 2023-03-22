@@ -91,8 +91,8 @@ describe('UserManagement Component', () => {
       // GIVEN
       axiosStub.delete.resolves({
         headers: {
-          'x-timbradocatalogosapp-alert': '',
-          'x-timbradocatalogosapp-params': '',
+          'x-portaltimbradoapp-alert': '',
+          'x-portaltimbradoapp-params': '',
         },
       });
 
